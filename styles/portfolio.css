@@ -29,7 +29,7 @@ body{
     align-items: center;
  }
  .nav{
-    
+    margin: 0 200px;
     font-size: 45px;
     font-style: normal;
     font-weight: 800;
@@ -46,6 +46,21 @@ body{
  }
  nav a{
     text-decoration: none;
+ }
+
+ /* header related styles */
+ .head{
+    background-color: rgb(252, 226, 194);
+ }
+ 
+ .banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+ }
+
+  .banner .profile{
+    width: 500px;
  }
 
 
