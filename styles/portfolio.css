@@ -1,0 +1,51 @@
+
+/* common shared styles */
+body{
+    .nerko-one-regular {
+        font-family: "Nerko One", cursive;
+        font-weight: 400;
+        font-style:italic;
+      }
+ .text-primary{
+    color: orange;
+ } 
+ 
+ .primary{
+    border-radius: 10px;
+    background-color: orange;
+    padding: 15px 35px;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+ }
+ 
+}
+/* nav related styles */
+ nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .nav{
+    
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif 
+ }
+ nav > ul{
+    display: flex;
+    align-items: center;
+ }
+ nav li{
+    list-style: none;
+    margin-right: 50px;
+ }
+ nav a{
+    text-decoration: none;
+ }
+
+
